@@ -13,7 +13,7 @@
             scroll-behavior: smooth;
         }
 
-        header a {
+        header h1 a {
             color: #333;
             text-align: left;
             padding: 10px 0 10px;
@@ -23,11 +23,10 @@
 
         }
 
-        header a:hover {
+        header h1 a:hover {
             color: #4a90e2;
             cursor: pointer;
         }
-
         .nav-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -60,7 +59,7 @@
         }
 
         .section {
-            padding: 10px 200px;
+            padding: 10px 5%;
             background-color: white;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -74,7 +73,10 @@
 </head>
 
 <body>
-    <header> <a href="index.html">明日の部屋</a></header>
+    <header>
+        <h1> <a href="index.html">明日の部屋</a> </h1>
+    </header>
+
 
     <nav class="nav-grid">
         <a href="about.html">About</a>
@@ -84,17 +86,17 @@
     </nav>
     <h2>Blog</h2>
     <div class="section">
-        <h2>はじめまして 2025-04-27</h2>
+        <h3>はじめまして 2025-04-27</h3>
         <p>はじめまして、なるです。</p>
         <p>ポーとフォリオを作成がてらホームページのようなものを作っています。</p>
         <p>このページもテストで書いてみてますが、HTMLって難しいですね。</p>
         <p>ChatGPTに頼りっぱなしなので自分だけで書けるようにいつかなりたいですね。頑張ります！</p>
         <p>今後は就活に向けてC++の勉強をしたいなと考えているのでそのことが出来たらいいなー、と思います。</p>
     </div>
-    <footer>
-        <p>&copy; 2025 明日の部屋</p>
-    </footer>
 
 </body>
+<footer>
+    <p>&copy; 2025 明日の部屋</p>
+</footer>
 
 </html>
